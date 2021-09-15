@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\ELCOT\eclipse-workspace\Demoblaze\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="address(chennai)">address(chennai)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="adultsperroom">adultsperroom</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="booknow">booknow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="cctypeyear">cctypeyear</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="checkindate(14/09/2021)">checkindate(14/09/2021)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="checkoutdate(15/09/2021)">checkoutdate(15/09/2021)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="chidperroom">chidperroom</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="continuebtn">continuebtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="continues">continues</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="creditcardno(1234567890123456)">creditcardno(1234567890123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="creditcardtype">creditcardtype</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="cvvno(1234)">cvvno(1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="expiredate">expiredate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="firstname(kalai)">firstname(kalai)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="hotels">hotels</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="lastname(krish)">lastname(krish)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="location">location</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="noofroom">noofroom</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="password(gokul@2109)">password(gokul@2109)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="roomtype">roomtype</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="search">search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.flight.Testngadatin" hash-for-method="username(Gokul2109)">username(Gokul2109)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.flight.Testngadatin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="address(chennai)">
+                  </a> <!-- address(chennai) -->
+                  <span class="method-name">address</span>
+                  <span class="parameters">(chennai)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adultsperroom">
+                  </a> <!-- adultsperroom -->
+                  <span class="method-name">adultsperroom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="booknow">
+                  </a> <!-- booknow -->
+                  <span class="method-name">booknow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cctypeyear">
+                  </a> <!-- cctypeyear -->
+                  <span class="method-name">cctypeyear</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkindate(14/09/2021)">
+                  </a> <!-- checkindate(14/09/2021) -->
+                  <span class="method-name">checkindate</span>
+                  <span class="parameters">(14/09/2021)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutdate(15/09/2021)">
+                  </a> <!-- checkoutdate(15/09/2021) -->
+                  <span class="method-name">checkoutdate</span>
+                  <span class="parameters">(15/09/2021)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chidperroom">
+                  </a> <!-- chidperroom -->
+                  <span class="method-name">chidperroom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="continuebtn">
+                  </a> <!-- continuebtn -->
+                  <span class="method-name">continuebtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="continues">
+                  </a> <!-- continues -->
+                  <span class="method-name">continues</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="creditcardno(1234567890123456)">
+                  </a> <!-- creditcardno(1234567890123456) -->
+                  <span class="method-name">creditcardno</span>
+                  <span class="parameters">(1234567890123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="creditcardtype">
+                  </a> <!-- creditcardtype -->
+                  <span class="method-name">creditcardtype</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cvvno(1234)">
+                  </a> <!-- cvvno(1234) -->
+                  <span class="method-name">cvvno</span>
+                  <span class="parameters">(1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="expiredate">
+                  </a> <!-- expiredate -->
+                  <span class="method-name">expiredate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstname(kalai)">
+                  </a> <!-- firstname(kalai) -->
+                  <span class="method-name">firstname</span>
+                  <span class="parameters">(kalai)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hotels">
+                  </a> <!-- hotels -->
+                  <span class="method-name">hotels</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lastname(krish)">
+                  </a> <!-- lastname(krish) -->
+                  <span class="method-name">lastname</span>
+                  <span class="parameters">(krish)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="location">
+                  </a> <!-- location -->
+                  <span class="method-name">location</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="noofroom">
+                  </a> <!-- noofroom -->
+                  <span class="method-name">noofroom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="password(gokul@2109)">
+                  </a> <!-- password(gokul@2109) -->
+                  <span class="method-name">password</span>
+                  <span class="parameters">(gokul@2109)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="roomtype">
+                  </a> <!-- roomtype -->
+                  <span class="method-name">roomtype</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search">
+                  </a> <!-- search -->
+                  <span class="method-name">search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="username(Gokul2109)">
+                  </a> <!-- username(Gokul2109) -->
+                  <span class="method-name">username</span>
+                  <span class="parameters">(Gokul2109)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ELCOT\eclipse-workspace\Demoblaze\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;gokul@2109&quot;/&gt;
+    &lt;parameter name=&quot;address&quot; value=&quot;chennai&quot;/&gt;
+    &lt;parameter name=&quot;cc_num&quot; value=&quot;1234567890123456&quot;/&gt;
+    &lt;parameter name=&quot;last_name&quot; value=&quot;krish&quot;/&gt;
+    &lt;parameter name=&quot;datepick_in&quot; value=&quot;14/09/2021&quot;/&gt;
+    &lt;parameter name=&quot;datepick_out&quot; value=&quot;15/09/2021&quot;/&gt;
+    &lt;parameter name=&quot;cc_cvv&quot; value=&quot;1234&quot;/&gt;
+    &lt;parameter name=&quot;first_name&quot; value=&quot;kalai&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;Gokul2109&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.flight.Testngadatin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'login')
+data.setCell(0, 2, 'org.flight.Testngadatin')
+data.setCell(0, 3, 1289);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'search')
+data.setCell(1, 2, 'org.flight.Testngadatin')
+data.setCell(1, 3, 1264);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'continuebtn')
+data.setCell(2, 2, 'org.flight.Testngadatin')
+data.setCell(2, 3, 889);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'expiredate')
+data.setCell(3, 2, 'org.flight.Testngadatin')
+data.setCell(3, 3, 390);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'cctypeyear')
+data.setCell(4, 2, 'org.flight.Testngadatin')
+data.setCell(4, 3, 370);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'location')
+data.setCell(5, 2, 'org.flight.Testngadatin')
+data.setCell(5, 3, 318);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'username')
+data.setCell(6, 2, 'org.flight.Testngadatin')
+data.setCell(6, 3, 276);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'roomtype')
+data.setCell(7, 2, 'org.flight.Testngadatin')
+data.setCell(7, 3, 268);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'noofroom')
+data.setCell(8, 2, 'org.flight.Testngadatin')
+data.setCell(8, 3, 263);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'adultsperroom')
+data.setCell(9, 2, 'org.flight.Testngadatin')
+data.setCell(9, 3, 259);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'hotels')
+data.setCell(10, 2, 'org.flight.Testngadatin')
+data.setCell(10, 3, 250);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'creditcardno')
+data.setCell(11, 2, 'org.flight.Testngadatin')
+data.setCell(11, 3, 230);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'password')
+data.setCell(12, 2, 'org.flight.Testngadatin')
+data.setCell(12, 3, 220);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'chidperroom')
+data.setCell(13, 2, 'org.flight.Testngadatin')
+data.setCell(13, 3, 217);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'creditcardtype')
+data.setCell(14, 2, 'org.flight.Testngadatin')
+data.setCell(14, 3, 209);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkoutdate')
+data.setCell(15, 2, 'org.flight.Testngadatin')
+data.setCell(15, 3, 205);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'address')
+data.setCell(16, 2, 'org.flight.Testngadatin')
+data.setCell(16, 3, 198);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'firstname')
+data.setCell(17, 2, 'org.flight.Testngadatin')
+data.setCell(17, 3, 196);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'lastname')
+data.setCell(18, 2, 'org.flight.Testngadatin')
+data.setCell(18, 3, 195);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'checkindate')
+data.setCell(19, 2, 'org.flight.Testngadatin')
+data.setCell(19, 3, 169);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'cvvno')
+data.setCell(20, 2, 'org.flight.Testngadatin')
+data.setCell(20, 3, 157);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'booknow')
+data.setCell(21, 2, 'org.flight.Testngadatin')
+data.setCell(21, 3, 147);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'continues')
+data.setCell(22, 2, 'org.flight.Testngadatin')
+data.setCell(22, 3, 143);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.flight.Testngadatin</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeclass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">username(Gokul2109)</span>
+                <span class="method-start">10548 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">password(gokul@2109)</span>
+                <span class="method-start">10832 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">11052 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">location</span>
+                <span class="method-start">12349 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hotels</span>
+                <span class="method-start">12667 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">roomtype</span>
+                <span class="method-start">12917 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">noofroom</span>
+                <span class="method-start">13193 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkindate(14/09/2021)</span>
+                <span class="method-start">13464 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkoutdate(15/09/2021)</span>
+                <span class="method-start">13641 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">adultsperroom</span>
+                <span class="method-start">13854 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chidperroom</span>
+                <span class="method-start">14121 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">search</span>
+                <span class="method-start">14338 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">continues</span>
+                <span class="method-start">15602 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">continuebtn</span>
+                <span class="method-start">15745 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">firstname(kalai)</span>
+                <span class="method-start">16642 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">lastname(krish)</span>
+                <span class="method-start">16838 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">address(chennai)</span>
+                <span class="method-start">17033 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">creditcardno(1234567890123456)</span>
+                <span class="method-start">17231 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">creditcardtype</span>
+                <span class="method-start">17469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">expiredate</span>
+                <span class="method-start">17694 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cctypeyear</span>
+                <span class="method-start">18084 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cvvno(1234)</span>
+                <span class="method-start">18454 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">booknow</span>
+                <span class="method-start">18611 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

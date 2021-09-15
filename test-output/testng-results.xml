@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="23" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18789" started-at="2021-09-14T05:03:27Z" finished-at="2021-09-14T05:03:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18789" started-at="2021-09-14T05:03:27Z" finished-at="2021-09-14T05:03:46Z">
+      <class name="org.flight.Testngadatin">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:org.flight.Testngadatin@42dafa95]" name="beforeclass" is-config="true" duration-ms="10516" started-at="2021-09-14T05:03:27Z" finished-at="2021-09-14T05:03:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="username(java.lang.String)[pri:0, instance:org.flight.Testngadatin@42dafa95]" name="username" duration-ms="276" started-at="2021-09-14T05:03:38Z" finished-at="2021-09-14T05:03:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gokul2109]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username -->
+        <test-method status="PASS" signature="password(java.lang.String)[pri:1, instance:org.flight.Testngadatin@42dafa95]" name="password" duration-ms="220" started-at="2021-09-14T05:03:38Z" finished-at="2021-09-14T05:03:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gokul@2109]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+        <test-method status="PASS" signature="login()[pri:2, instance:org.flight.Testngadatin@42dafa95]" name="login" duration-ms="1289" started-at="2021-09-14T05:03:38Z" finished-at="2021-09-14T05:03:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="location()[pri:3, instance:org.flight.Testngadatin@42dafa95]" name="location" duration-ms="318" started-at="2021-09-14T05:03:40Z" finished-at="2021-09-14T05:03:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- location -->
+        <test-method status="PASS" signature="hotels()[pri:4, instance:org.flight.Testngadatin@42dafa95]" name="hotels" duration-ms="250" started-at="2021-09-14T05:03:40Z" finished-at="2021-09-14T05:03:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotels -->
+        <test-method status="PASS" signature="roomtype()[pri:5, instance:org.flight.Testngadatin@42dafa95]" name="roomtype" duration-ms="268" started-at="2021-09-14T05:03:40Z" finished-at="2021-09-14T05:03:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roomtype -->
+        <test-method status="PASS" signature="noofroom()[pri:6, instance:org.flight.Testngadatin@42dafa95]" name="noofroom" duration-ms="263" started-at="2021-09-14T05:03:41Z" finished-at="2021-09-14T05:03:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noofroom -->
+        <test-method status="PASS" signature="checkindate(java.lang.String)[pri:7, instance:org.flight.Testngadatin@42dafa95]" name="checkindate" duration-ms="169" started-at="2021-09-14T05:03:41Z" finished-at="2021-09-14T05:03:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[14/09/2021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkindate -->
+        <test-method status="PASS" signature="checkoutdate(java.lang.String)[pri:8, instance:org.flight.Testngadatin@42dafa95]" name="checkoutdate" duration-ms="205" started-at="2021-09-14T05:03:41Z" finished-at="2021-09-14T05:03:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15/09/2021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutdate -->
+        <test-method status="PASS" signature="adultsperroom()[pri:9, instance:org.flight.Testngadatin@42dafa95]" name="adultsperroom" duration-ms="259" started-at="2021-09-14T05:03:41Z" finished-at="2021-09-14T05:03:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adultsperroom -->
+        <test-method status="PASS" signature="chidperroom()[pri:10, instance:org.flight.Testngadatin@42dafa95]" name="chidperroom" duration-ms="217" started-at="2021-09-14T05:03:42Z" finished-at="2021-09-14T05:03:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chidperroom -->
+        <test-method status="PASS" signature="search()[pri:11, instance:org.flight.Testngadatin@42dafa95]" name="search" duration-ms="1264" started-at="2021-09-14T05:03:42Z" finished-at="2021-09-14T05:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="continues()[pri:12, instance:org.flight.Testngadatin@42dafa95]" name="continues" duration-ms="143" started-at="2021-09-14T05:03:43Z" finished-at="2021-09-14T05:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continues -->
+        <test-method status="PASS" signature="continuebtn()[pri:13, instance:org.flight.Testngadatin@42dafa95]" name="continuebtn" duration-ms="889" started-at="2021-09-14T05:03:43Z" finished-at="2021-09-14T05:03:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continuebtn -->
+        <test-method status="PASS" signature="firstname(java.lang.String)[pri:14, instance:org.flight.Testngadatin@42dafa95]" name="firstname" duration-ms="196" started-at="2021-09-14T05:03:44Z" finished-at="2021-09-14T05:03:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kalai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstname -->
+        <test-method status="PASS" signature="lastname(java.lang.String)[pri:15, instance:org.flight.Testngadatin@42dafa95]" name="lastname" duration-ms="195" started-at="2021-09-14T05:03:44Z" finished-at="2021-09-14T05:03:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[krish]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastname -->
+        <test-method status="PASS" signature="address(java.lang.String)[pri:16, instance:org.flight.Testngadatin@42dafa95]" name="address" duration-ms="198" started-at="2021-09-14T05:03:44Z" finished-at="2021-09-14T05:03:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- address -->
+        <test-method status="PASS" signature="creditcardno(java.lang.String)[pri:17, instance:org.flight.Testngadatin@42dafa95]" name="creditcardno" duration-ms="230" started-at="2021-09-14T05:03:45Z" finished-at="2021-09-14T05:03:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditcardno -->
+        <test-method status="PASS" signature="creditcardtype()[pri:18, instance:org.flight.Testngadatin@42dafa95]" name="creditcardtype" duration-ms="209" started-at="2021-09-14T05:03:45Z" finished-at="2021-09-14T05:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditcardtype -->
+        <test-method status="PASS" signature="expiredate()[pri:19, instance:org.flight.Testngadatin@42dafa95]" name="expiredate" duration-ms="390" started-at="2021-09-14T05:03:45Z" finished-at="2021-09-14T05:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expiredate -->
+        <test-method status="PASS" signature="cctypeyear()[pri:20, instance:org.flight.Testngadatin@42dafa95]" name="cctypeyear" duration-ms="370" started-at="2021-09-14T05:03:46Z" finished-at="2021-09-14T05:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cctypeyear -->
+        <test-method status="PASS" signature="cvvno(java.lang.String)[pri:21, instance:org.flight.Testngadatin@42dafa95]" name="cvvno" duration-ms="157" started-at="2021-09-14T05:03:46Z" finished-at="2021-09-14T05:03:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cvvno -->
+        <test-method status="PASS" signature="booknow()[pri:22, instance:org.flight.Testngadatin@42dafa95]" name="booknow" duration-ms="147" started-at="2021-09-14T05:03:46Z" finished-at="2021-09-14T05:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booknow -->
+      </class> <!-- org.flight.Testngadatin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

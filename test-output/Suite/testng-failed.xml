@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="gokul@2109"/>
+    <parameter name="firstname" value="karthick"/>
+    <parameter name="ccCvv" value="1234"/>
+    <parameter name="checkin" value="14/09/2021"/>
+    <parameter name="address" value="chennai"/>
+    <parameter name="ccnum" value="1234567890123456"/>
+    <parameter name="checkout" value="15/09/2021"/>
+    <parameter name="username" value="Gokul2109"/>
+    <parameter name="lastname" value="krish"/>
+    <classes>
+      <class name="org.flight.Testngadatin">
+        <methods>
+          <include name="lastname"/>
+          <include name="beforeclass"/>
+          <include name="cvvno"/>
+          <include name="firstname"/>
+          <include name="checkoutdate"/>
+          <include name="creditcardno"/>
+          <include name="checkindate"/>
+        </methods>
+      </class> <!-- org.flight.Testngadatin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

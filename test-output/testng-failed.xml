@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="org.flight.Testngadatin">
+        <methods>
+          <include name="booknow"/>
+          <include name="continues"/>
+          <include name="adultsperroom"/>
+          <include name="creditcardtype"/>
+          <include name="username"/>
+          <include name="password"/>
+          <include name="roomtype"/>
+          <include name="search"/>
+          <include name="continuebtn"/>
+          <include name="hotels"/>
+          <include name="lastname"/>
+          <include name="cctypeyear"/>
+          <include name="beforeclass"/>
+          <include name="cvvno"/>
+          <include name="firstname"/>
+          <include name="noofroom"/>
+          <include name="checkoutdate"/>
+          <include name="address"/>
+          <include name="creditcardno"/>
+          <include name="location"/>
+          <include name="chidperroom"/>
+          <include name="expiredate"/>
+          <include name="checkindate"/>
+        </methods>
+      </class> <!-- org.flight.Testngadatin -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
